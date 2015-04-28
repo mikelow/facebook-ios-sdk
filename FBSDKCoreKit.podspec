@@ -19,8 +19,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/mikelow/facebook-ios-sdk.git",
-                     :tag => "sdk-version-4.0.1"
+  s.source       = { :git => "https://github.com/mikelow/facebook-ios-sdk.git"
                     }
 
   s.weak_frameworks = "Accounts", "CoreLocation", "Social", "Security", "QuartzCore", "CoreGraphics", "UIKit", "Foundation", "AudioToolbox"
