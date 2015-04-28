@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/facebook/facebook-ios-sdk.git",
+  s.source       = { :git => "https://github.com/mikelow/facebook-ios-sdk.git",
                      :tag => "sdk-version-4.0.1"
                     }
 
